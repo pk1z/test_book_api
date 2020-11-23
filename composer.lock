@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e74cf6e236cdf53b188000c94fefdc98",
+    "content-hash": "0bde8de11524b7b2a2a910ced53c93de",
     "packages": [
         {
             "name": "brick/math",
@@ -1972,16 +1972,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "e90f717c34788c11644478414c93fb766b669dc4"
+                "reference": "fa1219ecbf96bb5db59f2599cba0960a0d9c3aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/e90f717c34788c11644478414c93fb766b669dc4",
-                "reference": "e90f717c34788c11644478414c93fb766b669dc4",
+                "url": "https://api.github.com/repos/symfony/config/zipball/fa1219ecbf96bb5db59f2599cba0960a0d9c3aea",
+                "reference": "fa1219ecbf96bb5db59f2599cba0960a0d9c3aea",
                 "shasum": ""
             },
             "require": {
@@ -2029,7 +2029,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2020-10-28T21:46:03+00:00"
+            "time": "2020-11-16T18:02:40+00:00"
         },
         {
             "name": "symfony/console",
@@ -2113,16 +2113,16 @@
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "ff71914efb285cfe375dbfa12b79a779b89be1dc"
+                "reference": "d7a2980f12f9d37d54cf4e9ea1fa9bd58328d652"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/ff71914efb285cfe375dbfa12b79a779b89be1dc",
-                "reference": "ff71914efb285cfe375dbfa12b79a779b89be1dc",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/d7a2980f12f9d37d54cf4e9ea1fa9bd58328d652",
+                "reference": "d7a2980f12f9d37d54cf4e9ea1fa9bd58328d652",
                 "shasum": ""
             },
             "require": {
@@ -2179,7 +2179,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2020-11-09T12:21:52+00:00"
+            "time": "2020-11-13T09:44:33+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -2233,16 +2233,16 @@
         },
         {
             "name": "symfony/doctrine-bridge",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/doctrine-bridge.git",
-                "reference": "826cec8a03638c9dbb0957c373f03d6acb259ad7"
+                "reference": "de2c71f45952e3fb4b5455fb610ece01e7504262"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/826cec8a03638c9dbb0957c373f03d6acb259ad7",
-                "reference": "826cec8a03638c9dbb0957c373f03d6acb259ad7",
+                "url": "https://api.github.com/repos/symfony/doctrine-bridge/zipball/de2c71f45952e3fb4b5455fb610ece01e7504262",
+                "reference": "de2c71f45952e3fb4b5455fb610ece01e7504262",
                 "shasum": ""
             },
             "require": {
@@ -2325,7 +2325,7 @@
             ],
             "description": "Symfony Doctrine Bridge",
             "homepage": "https://symfony.com",
-            "time": "2020-11-09T19:34:12+00:00"
+            "time": "2020-11-19T00:44:06+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -2439,7 +2439,7 @@
         },
         {
             "name": "symfony/error-handler",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/error-handler.git",
@@ -2491,7 +2491,7 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
@@ -2621,16 +2621,16 @@
         },
         {
             "name": "symfony/filesystem",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "4326782dcccf8aa873b26999e36c6c71c8d3404b"
+                "reference": "bb92ba7f38b037e531908590a858a04d85c0e238"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/4326782dcccf8aa873b26999e36c6c71c8d3404b",
-                "reference": "4326782dcccf8aa873b26999e36c6c71c8d3404b",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/bb92ba7f38b037e531908590a858a04d85c0e238",
+                "reference": "bb92ba7f38b037e531908590a858a04d85c0e238",
                 "shasum": ""
             },
             "require": {
@@ -2662,7 +2662,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2020-10-28T21:33:29+00:00"
+            "time": "2020-11-12T09:58:18+00:00"
         },
         {
             "name": "symfony/finder",
@@ -3019,16 +3019,16 @@
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "46ff6a7c7a747cf87ca4ca2701048c6adc9c29de"
+                "reference": "ba0aeb1f49a2e687446fb82b828e957dfd999fe1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/46ff6a7c7a747cf87ca4ca2701048c6adc9c29de",
-                "reference": "46ff6a7c7a747cf87ca4ca2701048c6adc9c29de",
+                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/ba0aeb1f49a2e687446fb82b828e957dfd999fe1",
+                "reference": "ba0aeb1f49a2e687446fb82b828e957dfd999fe1",
                 "shasum": ""
             },
             "require": {
@@ -3071,20 +3071,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2020-11-02T16:16:33+00:00"
+            "time": "2020-11-20T17:25:36+00:00"
         },
         {
             "name": "symfony/http-kernel",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-kernel.git",
-                "reference": "e8136e599847130f54ff70e47fc9e5070bc4860b"
+                "reference": "4e5b640676b7ca24e0052c0cb9a3382839fdc658"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/e8136e599847130f54ff70e47fc9e5070bc4860b",
-                "reference": "e8136e599847130f54ff70e47fc9e5070bc4860b",
+                "url": "https://api.github.com/repos/symfony/http-kernel/zipball/4e5b640676b7ca24e0052c0cb9a3382839fdc658",
+                "reference": "4e5b640676b7ca24e0052c0cb9a3382839fdc658",
                 "shasum": ""
             },
             "require": {
@@ -3166,7 +3166,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
-            "time": "2020-11-10T07:54:37+00:00"
+            "time": "2020-11-21T08:45:53+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -4308,7 +4308,7 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v5.2.0-RC1",
+            "version": "v5.2.0-RC2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
@@ -4598,132 +4598,6 @@
                 "performance"
             ],
             "time": "2020-11-13T08:04:11+00:00"
-        },
-        {
-            "name": "doctrine/data-fixtures",
-            "version": "1.4.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/data-fixtures.git",
-                "reference": "16a03fadb5473f49aad70384002dfd5012fe680e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/data-fixtures/zipball/16a03fadb5473f49aad70384002dfd5012fe680e",
-                "reference": "16a03fadb5473f49aad70384002dfd5012fe680e",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/common": "^2.13|^3.0",
-                "doctrine/persistence": "^1.3.3|^2.0",
-                "php": "^7.2 || ^8.0"
-            },
-            "conflict": {
-                "doctrine/phpcr-odm": "<1.3.0"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "doctrine/dbal": "^2.5.4",
-                "doctrine/mongodb-odm": "^1.3.0 || ^2.0.0",
-                "doctrine/orm": "^2.7.0",
-                "phpunit/phpunit": "^7.0"
-            },
-            "suggest": {
-                "alcaeus/mongo-php-adapter": "For using MongoDB ODM 1.3 with PHP 7 (deprecated)",
-                "doctrine/mongodb-odm": "For loading MongoDB ODM fixtures",
-                "doctrine/orm": "For loading ORM fixtures",
-                "doctrine/phpcr-odm": "For loading PHPCR ODM fixtures"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Common\\DataFixtures\\": "lib/Doctrine/Common/DataFixtures"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com"
-                }
-            ],
-            "description": "Data Fixtures for all Doctrine Object Managers",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "database"
-            ],
-            "time": "2020-09-01T07:13:28+00:00"
-        },
-        {
-            "name": "doctrine/doctrine-fixtures-bundle",
-            "version": "3.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/doctrine/DoctrineFixturesBundle.git",
-                "reference": "870189619a7770f468ffb0b80925302e065a3b34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineFixturesBundle/zipball/870189619a7770f468ffb0b80925302e065a3b34",
-                "reference": "870189619a7770f468ffb0b80925302e065a3b34",
-                "shasum": ""
-            },
-            "require": {
-                "doctrine/data-fixtures": "^1.3",
-                "doctrine/doctrine-bundle": "^1.11|^2.0",
-                "doctrine/orm": "^2.6.0",
-                "doctrine/persistence": "^1.3.7|^2.0",
-                "php": "^7.1 || ^8.0",
-                "symfony/config": "^3.4|^4.3|^5.0",
-                "symfony/console": "^3.4|^4.3|^5.0",
-                "symfony/dependency-injection": "^3.4|^4.3|^5.0",
-                "symfony/doctrine-bridge": "^3.4|^4.1|^5.0",
-                "symfony/http-kernel": "^3.4|^4.3|^5.0"
-            },
-            "require-dev": {
-                "doctrine/coding-standard": "^6.0",
-                "phpunit/phpunit": "^7.4 || ^8.0 || ^9.2",
-                "symfony/phpunit-bridge": "^4.1|^5.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-4": {
-                    "Doctrine\\Bundle\\FixturesBundle\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Fabien Potencier",
-                    "email": "fabien@symfony.com"
-                },
-                {
-                    "name": "Doctrine Project",
-                    "homepage": "http://www.doctrine-project.org"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "http://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony DoctrineFixturesBundle",
-            "homepage": "http://www.doctrine-project.org",
-            "keywords": [
-                "Fixture",
-                "persistence"
-            ],
-            "time": "2020-11-14T09:36:49+00:00"
         },
         {
             "name": "friendsofphp/php-cs-fixer",

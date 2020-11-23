@@ -8,7 +8,7 @@ use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
 use Doctrine\ORM\Mapping\JoinTable;
 use Doctrine\ORM\Mapping\ManyToMany;
-use JMS\Serializer\Annotation\MaxDepth;
+use JMS\Serializer\Annotation as JMS;
 use Knp\DoctrineBehaviors\Contract\Entity\TranslatableInterface;
 use Knp\DoctrineBehaviors\Model\Translatable\TranslatableTrait;
 
@@ -23,15 +23,15 @@ class Book implements TranslatableInterface
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @JMS\Expose()
      */
     private $id;
 
     /**
      * @ManyToMany(targetEntity="Author", inversedBy="books")
      * @JoinTable(name="books_authors")
-     *
+     * @JMS\Expose()
      * @var ArrayCollection
-     * @MaxDepth(1)
      */
     private $authors;
 

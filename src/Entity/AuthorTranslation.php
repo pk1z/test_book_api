@@ -5,6 +5,7 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Knp\DoctrineBehaviors\Contract\Entity\TranslationInterface;
 use Knp\DoctrineBehaviors\Model\Translatable\TranslationTrait;
+use JMS\Serializer\Annotation as JMS;
 
 /**
  * @ORM\Entity
@@ -17,6 +18,7 @@ class AuthorTranslation implements TranslationInterface
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @JMS\Exclude()
      */
     private $id;
 
@@ -26,6 +28,7 @@ class AuthorTranslation implements TranslationInterface
     }
 
     /**
+     * @JMS\Expose()
      * @ORM\Column(type="string", length=255)
      */
     protected $name;

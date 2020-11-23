@@ -26,3 +26,4 @@
 ###< squizlabs/php_codesniffer ###
 
 .idea
+.env

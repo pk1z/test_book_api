@@ -9,6 +9,8 @@ use Doctrine\ORM\Mapping\ManyToMany;
 use JMS\Serializer\Annotation\MaxDepth;
 use Knp\DoctrineBehaviors\Contract\Entity\TranslatableInterface;
 use Knp\DoctrineBehaviors\Model\Translatable\TranslatableTrait;
+use JMS\Serializer\Annotation as JMS;
+
 
 /**
  * @ORM\Entity(repositoryClass=AuthorRepository::class)
@@ -21,6 +23,7 @@ class Author implements TranslatableInterface
      * @ORM\Id
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
+     * @JMS\Expose()
      */
     private $id;
 
@@ -28,6 +31,7 @@ class Author implements TranslatableInterface
      * Many Groups have Many Users.
      *
      * @ManyToMany(targetEntity="Book", mappedBy="authors")
+     * @JMS\Exclude()
      * @MaxDepth(1)
      */
     private $books;

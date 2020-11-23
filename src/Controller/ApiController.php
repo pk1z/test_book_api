@@ -111,8 +111,8 @@ class ApiController extends AbstractController
             return $this->json(['message' => 'Книга не найдена'], Response::HTTP_NOT_FOUND);
         }
 
-        $serializedBook = $serializer->serialize($book, 'json',
-            SerializationContext::create()->enableMaxDepthChecks()
+        $serializedBook = $serializer->serialize($book, 'json'
+            , SerializationContext::create()
         );
 
         return JsonResponse::fromJsonString($serializedBook);
