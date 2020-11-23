@@ -1,4 +1,5 @@
 Тестовое задание "rest api" [подробнее](qualificationTest.md)
+
 Установка:
 
 ```bash
@@ -11,7 +12,7 @@ docker-compose exec php php bin/console d:d:c // Создание пустой �
 docker-compose exec php php bin/console d:s:u --force // Создание необходимых таблиц в БД
 ```
 
-- загруза автогерерированных данных в базу
+- загруза автогенерированных данных в базу
 ```bash
 docker-compose exec php php bin/console app:fill-db
 ```
@@ -36,10 +37,11 @@ docker-compose exec php php bin/console app:parse-livelib
 
 ##Запросы к API
 
+Получание книги с ID = 5
 ```bash
 curl --location --request GET 'http://127.0.0.1:8000/ru/book/5'
 ```
-
+Сохранение книги с двумя переводами
 ```bash
 curl --location --request POST 'http://127.0.0.1:8000/book/create' \
 --header 'Content-Type: text/plain' \
@@ -56,7 +58,7 @@ curl --location --request POST 'http://127.0.0.1:8000/book/create' \
     ]
 }'
 ```
-
+Поиск книги по названию
 ```bash
 curl --location --request GET 'http://127.0.0.1:8000/book/search?name=%D0%A1%D0%BB%D0%B5%D0%BF%D0%BE%D0%B9'
 ```
