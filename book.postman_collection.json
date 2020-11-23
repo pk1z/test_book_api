@@ -1,0 +1,90 @@
+{
+	"info": {
+		"_postman_id": "81f2d38f-ea3d-40d2-83fe-bcee8b3d3d74",
+		"name": "book",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "get 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/ru/book/5",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"ru",
+						"book",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"translations\": [\n        {\n            \"name\": \"мастер и маргарита\",\n            \"locale\": \"ru\"\n        },\n        {\n            \"name\": \"master and margarita\",\n            \"locale\": \"en\"\n        }  \n    ]\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/book/create",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"book",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "searc",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/book/search?name=Слепой",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"book",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Слепой"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,47 @@
+version: '3'
+services:
+    nginx:
+        build: ./.misc/docker/images/nginx
+        volumes:
+            - .:/var/www/app
+        command: nginx -g "daemon off;"
+        links:
+            - php
+        ports:
+            - "8000:80"
+    php:
+        build: ./.misc/docker/images/php
+        volumes:
+        - .:/var/www/app
+        working_dir: /var/www/app
+        depends_on: [ dockerhost ]
+        command: php-fpm
+        links:
+            - db
+        env_file:
+            - .env
+        networks:
+            - default
+            - dockernet
+    dockerhost:
+        image: qoomon/docker-host
+        cap_add: [ 'NET_ADMIN', 'NET_RAW' ]
+        restart: on-failure
+    db:
+        image: mysql:5.7
+        ports:
+            - "3306:3306"
+        environment:
+            MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
+            MYSQL_USER: ${MYSQL_USER}
+            MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+        volumes:
+            - books_db_data:/var/lib/mysql
+volumes:
+    books_db_data:
+        external: true
+
+networks:
+  dockernet:
+    external: true
