@@ -4,7 +4,7 @@
 ```bash
 git clone https://github.com/pk1z/test_book_api.git
 cd test_book_api
-cp .env.dist .env
+cp .env.dist .env.local
 docker-compose up -d
 ```
 
