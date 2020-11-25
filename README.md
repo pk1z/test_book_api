@@ -12,7 +12,7 @@ docker-compose exec php php bin/console d:d:c // Создание пустой �
 docker-compose exec php php bin/console d:s:u --force // Создание необходимых таблиц в БД
 ```
 
-- загруза автогенерированных данных в базу
+- загрузка автогенерированных данных в базу
 ```bash
 docker-compose exec php php bin/console app:fill-db
 ```
@@ -37,7 +37,7 @@ docker-compose exec php php bin/console app:parse-livelib
 
 ##Запросы к API
 
-Получание книги с ID = 5
+Получение книги с ID = 5
 ```bash
 curl --location --request GET 'http://127.0.0.1:8000/ru/book/5'
 ```
